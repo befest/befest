@@ -1,0 +1,164 @@
+body{
+    padding-top: 150px;
+}
+
+#partedecima{
+    background-color: #ff0080;
+    width: 100%;
+
+}
+header{
+    background-color: #ff0080;
+    width: 100%;
+    height: 140px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#logo1{
+    width: 13%;
+    height: 150px;
+    position: absolute;
+    left: 10px;
+    top: -5px;
+
+}
+#barradepesquisa{
+    position: absolute;
+    right: 370px;
+    top: 40px;
+    padding: 10px;
+    height: 60px;
+    width: 400px;
+    font-size: 11pt;
+    border: 1px solid #9c0041;
+    border-radius: 30px;
+
+}
+#newfest{
+    position: absolute;
+    top: 50px;
+    right: 5px;
+    padding: 10px;
+    width: 150px;
+    background-color: #ff0080;
+    border: 5px solid #9c0041;
+    border-radius: 30px;
+    font-family: 'Helvetica';
+    color: #9c0041;
+}
+#newfest:hover{
+    background-color: #9c0041;
+    color: white;
+    transition: 0.50s;
+}
+#festpedidos{
+    position: absolute;
+    top: 50px;
+    right: 160px;
+    padding: 10px;
+    width: 150px;
+    background-color: #ff0080;
+    border: 5px solid white;
+    border-radius: 30px;
+    font-family: 'Helvetica';
+    color: white;
+}
+#festpedidos:hover{
+    background-color: white;
+    color:#ff0080;
+    transition: 0.50s;
+}
+.decima{
+    display: inline;
+    position: relative ;
+    margin: 10px;
+    top: 40px;
+    left: 150px;
+    color: #9c0041;
+    align-self: center;
+    font-family: 'bahnschrift';
+    font-size: 12pt;
+}
+.decima:hover{
+    color: white;
+    transition: 0.50s;
+}
+#avatar{
+    width: 4%;
+    height: 30px;
+    position: absolute;
+    right: 310px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.fotoserv{
+    display: inline;
+    width: 23%;
+    height: 200px;
+    margin-top: 50px;
+    padding: 10px;
+}
+#barretos{
+    width: 30%;
+    height: 100px;
+}
+.fileira1{
+    display: inline-block;
+    background-color: rgb(247, 247, 247);
+    width: 25%;
+    height: 100px;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.fileira1:hover{
+    width: 25.5%;
+    height: 101px;
+    transition: 0.36s all;
+    -webkit-box-shadow: 9px 7px 5px rgba(226, 226, 226, 0.932);
+		-moz-box-shadow:    9px 7px 5px rgba(226, 226, 226, 0.932);
+		box-shadow:         9px 7px 5px rgba(226, 226, 226, 0.932);
+
+}
+.titulotop{
+    margin-left: 150px;
+    margin-top: -101px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+}
+.estrelas{
+  display: flex;
+  margin-left: 150px;
+  margin-top: -10px;
+}
+.estrelas input[type=radio] {
+  display: none;
+}
+.estrelas label i.fa{
+  font-size: 0.7em
+}
+.estrelas label i.fa:before {
+  content:'\f005';
+  color: #FC0;
+}
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+  color: #CCC;
+}
+.areadeatuaçao{
+    font-family: 'bahnschrift';
+    font-size: 8pt;
+    margin-left: 120px;
+    margin-top: 7px;
+}
+.titulodogabi{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9c0041;
+    margin-left: 10px;
+    font-size: 16pt;
+}
